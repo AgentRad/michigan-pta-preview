@@ -1,0 +1,20 @@
+{
+  "name": "Michigan PTA",
+  "short_name": "Michigan PTA",
+  "description": "Michigan's largest nonprofit child advocacy organization since 1918.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1E3D6F",
+  "lang": "en-US",
+  "categories": ["education", "nonprofit", "advocacy"],
+  "icons": [
+    {
+      "src": "/img/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}
