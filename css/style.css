@@ -280,7 +280,7 @@ section { padding: clamp(4rem, 9vw, 8rem) 0; }
 /* Hero. Full-bleed editorial */
 .hero {
   position: relative;
-  min-height: clamp(580px, 92vh, 880px);
+  min-height: clamp(580px, 92dvh, 880px);
   color: var(--white);
   display: flex;
   align-items: flex-end;
@@ -448,7 +448,9 @@ section { padding: clamp(4rem, 9vw, 8rem) 0; }
 }
 .pillar:last-child { border-right: none; }
 .pillar:hover, .pillar:focus-visible { background: var(--paper); text-decoration: none; }
-.pillar:hover { padding-left: 1rem; padding-right: 1rem; }
+@media (hover: hover) {
+  .pillar:hover { padding-left: 1rem; padding-right: 1rem; }
+}
 .pillar-num {
   font-family: var(--font-display);
   font-size: 1.05rem;
@@ -523,7 +525,7 @@ section { padding: clamp(4rem, 9vw, 8rem) 0; }
 }
 .image-moment-bg {
   position: relative;
-  height: clamp(420px, 70vh, 680px);
+  height: clamp(420px, 70dvh, 680px);
   overflow: hidden;
 }
 .image-moment-bg img {
@@ -605,7 +607,10 @@ section { padding: clamp(4rem, 9vw, 8rem) 0; }
   align-items: center;
   transition: padding 0.2s var(--ease);
 }
-.event-row:hover { padding-left: 1rem; padding-right: 1rem; background: var(--paper); }
+.event-row:hover { background: var(--paper); }
+@media (hover: hover) {
+  .event-row:hover { padding-left: 1rem; padding-right: 1rem; }
+}
 .event-row:first-child { border-top: 1px solid var(--line); }
 .event-date {
   text-align: left;

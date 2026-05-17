@@ -5,11 +5,23 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#FFFFFF",
-  "theme_color": "#1E3D6F",
+  "background_color": "#FAF7F0",
+  "theme_color": "#0D1F3D",
   "lang": "en-US",
   "categories": ["education", "nonprofit", "advocacy"],
   "icons": [
+    {
+      "src": "/img/logo-mark.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/logo-mark.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
     {
       "src": "/img/favicon.svg",
       "type": "image/svg+xml",
